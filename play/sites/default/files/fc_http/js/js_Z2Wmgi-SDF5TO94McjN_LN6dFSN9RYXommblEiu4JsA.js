@@ -1,0 +1,1 @@
+(function(a){Drupal.behaviors.ajaxfix=(function(){return{attach:function(b,c){a.ajaxSetup({beforeSend:function(e,d){d.error=function(f,h,g){}}})}}})()})(jQuery);
